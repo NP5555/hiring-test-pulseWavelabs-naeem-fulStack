@@ -1,80 +1,88 @@
+# Card Memory Game
 
-## Card Memory Game - Simplified Skill Test
+A fun and engaging card memory game where players test their memory by matching pairs of cards. The game features multiple difficulty levels and tracks your progress!
 
-### Welcome!
-Thank you for your interest in joining! This is a simplified skill test designed to understand your approach to problem-solving and development. The tasks are categorized based on your area of expertise.
+## 🎮 How to Play
 
----
+1. **Start the Game**
+   - Click the "Play" button on the main screen
+   - Choose your difficulty level:
+     - Easy: 6 pairs of cards
+     - Medium: 8 pairs of cards
+     - Hard: 12 pairs of cards
 
-### 🎯 **Objective:**
-Build a small part of a card memory game based on your assigned role. This is meant to be completed within **2–3 hours** to showcase your skills.
+2. **Game Rules**
+   - Cards are placed face down on the board
+   - Click on a card to flip it
+   - Try to find its matching pair
+   - You can only flip two cards at a time
+   - If the cards match, they stay face up
+   - If they don't match, they flip back face down
+   - The game is complete when all pairs are matched
 
-### 🛠️ **Tech Stack:**
-- Frontend: React, Vite
-- Backend: Node.js, Express
-- Database: MongoDB (only if applicable)
-- Web3: MetaMask integration (only if applicable)
+3. **Scoring**
+   - Your score is based on:
+     - Number of moves taken
+     - Time taken to complete
+     - Difficulty level multiplier
 
-### 🚀 **Setup Guide:**
+4. **Tips**
+   - Try to remember the position of cards you've seen
+   - Plan your moves strategically
+   - Take your time to observe the board
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/labsorg525/hiring_test.git
    ```
+
 2. Navigate to the project directory:
    ```bash
    cd hiring_test
    ```
+
 3. Set up the backend:
    ```bash
    cd ./backend
    npm install
    npm start
    ```
+
 4. Set up the frontend:
    ```bash
    cd ../frontend
    npm install
    npm start
    ```
-5. Visit `http://localhost:5173` to see the project.
+
+5. Visit `http://localhost:5173` to start playing!
+
+## 🛠️ Tech Stack
+- Frontend: React, Vite
+- Backend: Node.js, Express
+- Database: MongoDB (for storing game results)
+
+## 🎯 Features
+- Multiple difficulty levels
+- Score tracking
+- Game history
+- Responsive design
+- Beautiful card animations
+
+## 🤝 Contributing
+We welcome contributions! Please feel free to submit a Pull Request.
+
+## 📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-### 🧩 **Task Breakdown by Role (Ordered by Importance):**
-#### **Tech Lead:**
-- Review the existing codebase and suggest architectural improvements.
-- Draft a brief project roadmap highlighting key milestones and dependencies for scaling the game.
-
-#### **Project Manager:**
-- Create a simple project plan or task board to showcase how you would organize and prioritize tasks for a small team.
-- Identify potential risks in the project and propose mitigation strategies.
-
-#### **Frontend Developer:**
-- Style the login page to be visually appealing and responsive.
-- Create a modal dialog for level selection (Easy, Medium, Hard).
-
-#### **Backend Developer:**
-- Implement a simple API endpoint to save game results.
-- Create a route to fetch the game result history (no need for complex authentication).
-
-#### **Full Stack Developer:**
-- Complete both the Frontend and Backend tasks.
-- Integrate the API to display the game result history on a new page.
-
-#### **Web3 Developer:**
-- Implement MetaMask wallet connection.
-- Show a message displaying the connected wallet address.
-
-#### **Designer:**
-- Create assets like a styled Play button and card designs.
-- Suggest UI/UX improvements for the main screen.
-
-#### **QA Tester:**
-- Create a comprehensive testing plan that outlines your testing strategy for the card memory game, including at least 8 test cases with detailed steps and expected outcomes.  
-- Additionally, suggest best practices for maintaining quality throughout the development lifecycle.
-
----
-
----
-
-### ⚡ **Good Luck and Have Fun!**
+### ⚡ Have Fun Playing!
